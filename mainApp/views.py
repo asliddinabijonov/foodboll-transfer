@@ -12,3 +12,11 @@ class About(View):
 class Tryouts(View):
     def get(self, request):
         return render(request, 'tryouts.html')
+
+class Clubs(View):
+    def get(self, request):
+        context = {
+            'clublar': Club.objects.order_by('-kapital')
+        }
+        return render(request, 'clubs.html', context)
+

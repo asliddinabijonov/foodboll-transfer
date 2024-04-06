@@ -17,6 +17,7 @@ class Transfer(models.Model):
     narx = models.PositiveIntegerField()
     taxmin_narx = models.PositiveIntegerField()
     mavsum = models.ForeignKey(Mavsum, on_delete=models.SET_NULL, null=True)
+    sana = models.DateField(auto_now=True)
 
     def __str__(self):
         return self.player.ism
