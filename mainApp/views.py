@@ -20,3 +20,17 @@ class Clubs(View):
         }
         return render(request, 'clubs.html', context)
 
+class Players(View):
+    def get(self, request):
+        context = {
+            'players': Player.objects.order_by('ism')
+        }
+        return render(request, 'players.html', context)
+
+class U20(View):
+    def get(self, request):
+        context = {
+            'u20': Player.objects.order_by('-narx').filter(t_sana__gt='2004-01-01')
+        }
+        return render(request, "U-20 players.html", context)
+
