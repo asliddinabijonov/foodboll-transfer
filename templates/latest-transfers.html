@@ -1,12 +1,18 @@
 {% extends "header.html" %}
+{% block title %}
+    <title>Latest-transfers</title>
+{% endblock %}
+{% block latest_active %}
+	class="navActive"
+{% endblock %}
 {% block content %}
-
     <div class="nav">
         <h2>– LATEST TRANSFERS –</h2>
         <table class="content-nav">
             <thead>
             <tr>
-                <td>#player</td>
+                <td>#</td>
+                <td>player</td>
                 <td>from</td>
                 <td>to</td>
                 <td>
@@ -27,7 +33,8 @@
         <table class="players" style="padding-top: 100px">
             {% for transfer in transferlar %}
                 <tr>
-                    <td>{{ forloop.counter }}{{ transfer.player }}</td>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ transfer.player }}</td>
                     <td>{{ transfer.club1.nom }}</td>
                     <td>{{ transfer.club2.nom }}</td>
                     <td>{{ transfer.narx }}</td>

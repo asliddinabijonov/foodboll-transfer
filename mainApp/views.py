@@ -34,3 +34,19 @@ class U20(View):
         }
         return render(request, "U-20 players.html", context)
 
+class CountryClubs(View):
+    def get(self, request, pk):
+        context = {
+            'clubs': Club.objects.filter(davlat__id=pk),
+            'davlat': Davlat.objects.get(id=pk)
+        }
+        return render(request, "england.html", context)
+
+class Oyinchilar(View):
+    def get(self, request, pk):
+        context = {
+            "players": Player.objects.filter(club__id=pk),
+            "club": Club.objects.get(id=pk)
+        }
+        return render(request, 'playerss.html', context)
+

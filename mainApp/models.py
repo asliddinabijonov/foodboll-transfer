@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 
@@ -44,6 +46,12 @@ class Player(models.Model):
     narx = models.PositiveIntegerField(blank=True, null=True)
     davlat = models.ForeignKey(Davlat, on_delete=models.SET_NULL, null=True)
     pozitsiya = models.ForeignKey(Pozitsiya, on_delete=models.SET_NULL, null=True)
+
+    def yosh(self):
+        h_yil = datetime.now().year
+        t_yil = int(str(self.t_sana)[:4])
+
+        return h_yil - t_yil
 
     def __str__(self):
         return f"{self.ism}"
