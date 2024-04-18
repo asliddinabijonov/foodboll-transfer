@@ -236,7 +236,7 @@
   margin-bottom: 4px;
   padding: 10px 0px;
   font-size: 18px;
-  border-bottom: 2px solid rgb(255, 0, 0);
+  border-bottom: 2px solid rgb(26, 255, 0);
   text-align: center;
 }
 
@@ -254,7 +254,7 @@
   margin-bottom: 4px;
   padding: 10px 0px;
   font-size: 18px;
-  border-bottom: 2px solid rgb(255, 0, 0);
+  border-bottom: 2px solid rgb(26, 255, 0);
   text-align: center;
 }
 /* .playerss tr td:nth-child(1) {
@@ -280,7 +280,7 @@
   width: 100px;
   margin-bottom: 4px;
   font-size: 18px;
-  border-bottom: 2px solid rgb(255, 0, 0);
+  border-bottom: 2px solid rgb(26, 255, 0);
   text-align: center;
   padding: 10px 0px;
 }
@@ -288,7 +288,7 @@
   width: 100px !important;
   margin-bottom: 4px;
   font-size: 18px;
-  border-bottom: 2px solid rgb(255, 0, 0);
+  border-bottom: 2px solid rgb(26, 255, 0);
   text-align: center;
   padding: 10px 0px;
 }
@@ -323,8 +323,8 @@
 }
 
 .content-nav {
-  border-top: 2px solid rgb(255, 0, 0);
-  border-bottom: 2px solid rgb(255, 0, 0);
+  border-top: 2px solid rgb(26, 255, 0);
+  border-bottom: 2px solid rgb(26, 255, 0);
   width: 100%;
 }
 .content-nav tr {
@@ -333,7 +333,7 @@
 }
 .content-nav tr td {
   width: 140px;
-  color: red;
+  color: rgb(26, 255, 0);
   text-align: center;
 }
 .content-nav tr td:nth-child(1) {
@@ -353,17 +353,17 @@
 }
 .clubs .club {
   width: 170px;
-  border-top: 2px solid red;
-  border-bottom: 2px solid red;
+  border-top: 2px solid rgb(26, 255, 0);
+  border-bottom: 2px solid rgb(26, 255, 0);
   transition: all 0.2s ease-in-out;
   /* margin-right: 10% !important; */
 }
 .clubs .club:hover {
   border: none;
   border-radius: 5px;
-  border-top: 2px solid red;
-  border-bottom: 2px solid red;
-  border-left: 4px solid red;
+  border-top: 2px solid rgb(26, 255, 0);
+  border-bottom: 2px solid rgb(26, 255, 0);
+  border-left: 4px solid rgb(26, 255, 0);
 }
 .clubs .club a {
   display: flex;
@@ -376,7 +376,7 @@
   word-spacing: 4px;
 }
 .clubs .club a:hover {
-  color: red !important;
+  color: rgb(26, 255, 0) !important;
 }
 .clubs .club a img {
   width: 55px;
@@ -417,7 +417,7 @@
 
 .footer {
   width: 100%;
-  background-color: red;
+  background-color: rgb(26, 255, 0);
   height: 80px;
   display: flex;
   align-items: center;
@@ -533,7 +533,7 @@
   }
   .country-menu h3 a:hover,
   .navbar-menu h3 a:hover {
-    background-color: red;
+    background-color: rgb(26, 255, 0);
   }
 
   .navbar-menu {
@@ -557,7 +557,7 @@
   }
 
   .navbar-menu.active {
-    background-color: red;
+    background-color: rgb(26, 255, 0);
     right: 0px;
   }
 
@@ -588,7 +588,7 @@
   }
   .content-nav tr td {
     width: 15%;
-    color: red;
+    color: rgb(26, 255, 0);
     text-align: center;
     font-size: 11px;
   }
