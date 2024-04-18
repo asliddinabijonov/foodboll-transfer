@@ -11,7 +11,7 @@
 }
 .container .navbar {
   width: 100%;
-  background-color: red;
+  background-color: rgb(26, 255, 0);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -76,7 +76,7 @@
   text-decoration: none;
   width: 380px;
   height: 140px;
-  background-color: red;
+  background-color: rgb(26, 255, 0);
   border-radius: 6px;
   font-size: 40px;
   display: flex;
@@ -92,7 +92,7 @@
 
 .country-clubs {
   width: 350px;
-  border: 1px solid rgb(255, 16, 16);
+  border: 1px solid rgb(26, 255, 0);
   border-radius: 10px;
   position: fixed;
   top: 80px;
@@ -110,14 +110,14 @@
 .country-clubs h2:hover {
   border-radius: 5px;
   padding-left: 10px;
-  background-color: red;
+  background-color: rgb(26, 255, 0);
 }
 .country-clubs h2:hover a {
   color: white;
 }
 .country-clubs #title {
   font-size: 30px;
-  background-color: red;
+  background-color: rgb(26, 255, 0);
   color: white;
   text-align: center;
   line-height: 40px;
@@ -148,20 +148,20 @@
 .country-clubs .country h3:hover {
   border-radius: 5px;
   padding-left: 10px;
-  background-color: red;
+  background-color: rgb(26, 255, 0);
 }
 .country-clubs .country h3:hover a {
   color: white;
 }
 .clubs-info {
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid rgb(26, 255, 0);
   border-radius: 10px 0px 10px 0px;
   padding: 10px;
   margin-top: 30px;
 }
 .clubs-info h2 {
   text-align: center;
-  color: red;
+  color: rgb(26, 255, 0);
   margin: 10px;
 }
 
@@ -177,7 +177,7 @@
 .clubs-info > div > div {
   width: 100%;
   padding: 0px 20px;
-  border-bottom: 1px solid rgb(255, 0, 0);
+  border-bottom: 1px solid rgb(26, 255, 0);
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
@@ -205,7 +205,7 @@
 }
 .nav h2 {
   text-align: center;
-  color: red;
+  color: rgb(26, 255, 0);
   line-height: 50px;
   padding-top: 30px;
   font-size: 22px;
